@@ -3,7 +3,7 @@ require("dotenv").config();
 
 module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
-  SESSION_ID: process.env.SESSION_ID || "Put Session Id",
+  SESSION_ID: process.env.SESSION_ID || "da0RzapS#EKN_klIx_ahuP1uedbxk_gcUUUzJFSagfSqsNxieZz8",
   // ADD Your Session Id 
   MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
     // ADD Your MongoDB Database URL
@@ -15,7 +15,7 @@ module.exports = {
   // public = AnyOne Working
   // inbox = Only Working  Inbox
   // groups = only working in group
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "94718913389",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "94755930139",
   //========================================- OTHER - CONFIGS -=====================================================================
   AUTO_VOICE: process.env.AUTO_VOICE || "true",
   ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "true",
@@ -25,9 +25,9 @@ module.exports = {
   ANTI_LINK: process.env.ANTILINK || "true",
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
   AUTO_READ_CMD: process.env.AUTO_READ_CMD || "true",
-  ALWAYS_TYPING: process.env.ALWAYS_TYPING || "true",
+  ALWAYS_TYPING: process.env.ALWAYS_TYPING || "false",
   ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "true",
-  ANTI_BOT: process.env.ANTI_BOT || "true",
+  ANTI_BOT: process.env.ANTI_BOT || "false",
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
   packname: process.env.packname || "SAHAS TECH",
   author: process.env.author || "SAHAS TECH",
